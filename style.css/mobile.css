@@ -1,4 +1,4 @@
-@media (min-device-width: 300px) {
+@media (max-device-width: 614px) {
     body{
         background-color: #FAFAFA;
     }
@@ -49,6 +49,33 @@
    .post_3_mobile{
        display: none;
    }
-
+   .stories_planodefundo{
+       display: none;
+   }
+   .stories_planodefundo_mobile{
+    width: 56px;
+    height: 56px;
+    margin-top: 23px;
+    margin-left: 20.5px;
+   }
+   .barra_inferior_mobile{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100vw;
+    height: 54px;
+    margin-top: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .barra_inferior_mobile_icones{
+    background-color: darkorange;
+    width: 570px;
+    height: 54px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
   
  }
