@@ -1,0 +1,54 @@
+@media (min-device-width: 300px) {
+    body{
+        background-color: #FAFAFA;
+    }
+    .container{
+        background-color: #FAFAFA;
+    }
+    .corpo{
+        background-color: #FAFAFA;
+        height: calc(100vh - 108px);
+    }
+    .linha_vertical { 
+        display: none;
+    }
+    .topo{
+        width: 100vw;
+    }
+    .topo_meio { 
+        display: none;
+    }
+    .topo_icones { 
+        display: none;
+    }
+    .sidebar { 
+        display: none;
+    }
+    .imagem_topo_centralizar img{
+        display: block;
+        margin: 0 auto;
+    }
+    .topo_icone_mobile_esquerda{
+        margin-left: 186px;
+    }
+    .topo_icone_mobile_direita{
+        margin-left: -80px;
+    }
+    .icones{
+       margin-top:-2px;
+       width: 100%;
+       background-color: #FAFAFA;
+    }
+    .conteudo{
+        margin-top:-37px;
+        width: 100%;
+    }
+    .icones_botao{
+        display: none;
+    }
+   .post_3_mobile{
+       display: none;
+   }
+
+  
+ }
