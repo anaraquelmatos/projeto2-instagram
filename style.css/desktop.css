@@ -11,9 +11,11 @@
     .barra_inferior_mobile_icones{
         display: none;
     }
+    .imagem_mobile_2{
+        display: none;
+    }
  }
 body{
-    width: 100%;
     background-color: #E5E5E5;
 }
 * {
@@ -40,7 +42,6 @@ a:hover .p{
 .container{
     /*background-color: #FAFAFA;*/
     background-color: #E5E5E5;
-    width: 100vw;  
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +62,6 @@ a:hover .p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-color: black;*/
     width: 936px;
     height: 54px;
 }
@@ -82,6 +82,9 @@ a:hover .p{
 .topo_esquerda img{
     padding-left: 10px;
     /*background-color: saddlebrown;*/
+}
+.topo_meio .topo_meio_input{
+    margin-left: -320px;
 }
 .topo_meio input{ 
     width: 215px;
@@ -230,11 +233,13 @@ a:hover .p{
 }
 .imagens{
     /*background-color: green;*/
+    margin-left: 1px;
     height: 612px;
-    width: 614px;
+    width: 612.3px;
 }
 .imagem{
-    width: 614px;
+    width: 612.4px;
+    margin-left: 1px;
 }
 .imagem_mobile{
     width: 100%;

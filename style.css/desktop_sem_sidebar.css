@@ -2,4 +2,18 @@
     .sidebar { 
         display: none;
     }
+    .topo{
+        height: 54px;
+        width: 858px;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        z-index: 4;
+    }
+    .topo_esquerda{
+        margin-left: 25px;
+    }
+    .topo_itens_direita{
+        margin-right: 20px;
+    }
  }
